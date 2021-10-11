@@ -20,9 +20,9 @@ public class DataSourceApplicationDemo implements CommandLineRunner {
     @Autowired
     private DataSource dataSource;
 
-//    public static void main(String[] args) {
-//        SpringApplication.run(DataSourceApplicationDemo.class, args);
-//    }
+    public static void main(String[] args) {
+        SpringApplication.run(DataSourceApplicationDemo.class, args);
+    }
 
     @Override
     public void run(String... args) throws Exception {

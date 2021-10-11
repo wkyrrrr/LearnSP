@@ -21,9 +21,9 @@ import java.util.Map;
 @SpringBootApplication
 @RestController
 public class BookManagerApiController {
-    public static void main(String[] args) {
-        SpringApplication.run(BookManagerApiController.class, args);
-    }
+//    public static void main(String[] args) {
+//        SpringApplication.run(BookManagerApiController.class, args);
+//    }
 
     @RequestMapping("/book")
     public String getBookInfo(@RequestParam(name = "param") String param){
