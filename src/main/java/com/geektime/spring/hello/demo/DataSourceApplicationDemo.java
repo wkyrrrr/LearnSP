@@ -13,7 +13,7 @@ import java.sql.SQLException;
 /**
  * @author abner
  */
-@SpringBootApplication
+//@SpringBootApplication
 @Slf4j
 public class DataSourceApplicationDemo implements CommandLineRunner {
 
